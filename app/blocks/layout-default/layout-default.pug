@@ -1,0 +1,10 @@
+include ../page/page
+include ../scripts/scripts
+
+doctype html
+html(lang='ru')
+	include ../head/head
+	+page
+		block content
+		block scripts
+			+scripts(['app.min.js'])

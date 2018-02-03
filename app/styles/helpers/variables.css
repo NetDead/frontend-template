@@ -1,0 +1,22 @@
+:root {
+
+	/* Typography */
+	--base-font-family: "Museo Sans", Arial, Helvetica, sans-serif;
+	--heading-font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	--base-font-size: 100%;
+	--base-line-height: 1.5;
+
+	/* Global Width */
+	--global-width: 75rem;
+
+	/* Offsets */
+	--offset-base: 1.25rem;
+	--offset-medium: calc(var(--offset-base) * 2);
+	--offset-large: calc(var(--offset-medium) * 2);
+
+	/* Media breakpoints */
+	@custom-media --small-screen (width >= 36rem);
+	@custom-media --medium-screen (width >= 48rem);
+	@custom-media --large-screen (width >= 64rem);
+	@custom-media --xlarge-screen (width >= 75rem);
+}

@@ -1,0 +1,5 @@
+<% _.each(icons, function (icon) { %>.<%= icon.className %> {
+	width: <%= _.round(_.replace(icon.width, 'px', '')) %>px;
+	height: <%= _.round(_.replace(icon.height, 'px', '')) %>px;
+}<% if (icons[_.size(icons) - 1].className != icon.className) { %><%= '\n' %><% } %>
+<% });%>

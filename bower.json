@@ -1,0 +1,27 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "author": "Helg Volkov",
+  "description": "Start template for front-end development",
+  "main": "gulpfile.babel.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "lib"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "fancyBox": "latest",
+    "svg4everybody": "latest",
+    "normalize-css": "latest",
+    "js-cookie": "latest"
+  },
+  "resolutions": {
+    "jquery": "latest"
+  },
+  "authors": [
+    "Oleg Smirnov <o.smirnov@shaman-art.com> (https://github.com/HelgVolkov)"
+  ],
+  "homepage": "https://github.com/HelgVolkov/frontend-template#readme"
+}
